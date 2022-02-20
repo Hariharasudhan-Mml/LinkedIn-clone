@@ -1,0 +1,177 @@
+.sidebar {
+  flex: 0.2;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.sidebar__top {
+ 
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.sidebar__top--background {
+  height: 40px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.sidebar__top--rounded {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid white;
+  margin-top: -30px;
+  background-color: white;
+}
+.sidebar__info > h3 {
+  font-size: 15px;
+}
+.sidebar__info > p {
+  font-size: 12px;
+  color: grey;
+}
+hr {
+  color: grey;
+  margin: 10px 0;
+  border-style: groove;
+}
+.sidebar__stats {
+  padding: 5px;
+  font-size: 13px;
+}
+.sidebar__stat {
+  display: flex;
+  justify-content: space-around;
+}
+.sidebar__stat > p {
+  color: grey;
+}
+.sidebar__stat > span {
+  color: rgb(66, 78, 248);
+  font-size: 11px;
+}
+.sidebar__premium--add > small {
+  color: grey;
+}
+.sidebar__premium--add > p {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.sidebar__premium--add > p > .MuiSvgIcon-root {
+  color: goldenrod;
+}
+.sidebar__myitems > p > .MuiSvgIcon-root {
+  font-size: 21px;
+  margin-right: 5px;
+}
+.sidebar__myitems > p {
+  display: flex;
+  margin-left: 10px;
+  padding-bottom: 7px;
+}
+.sidebar__mypages {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.sidebar__mypages--title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 10px;
+}
+.sidebar__page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.sidebar__page hr {
+  border-style: ridge;
+}
+.sidebar__page--name {
+  flex: 1;
+  text-align: left;
+  margin-left: 5px;
+}
+.sidebar__page--name > h3 {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.sidebar__page--notifications > p {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.sidebar__page--notifications small {
+  color: grey;
+}
+.sidebar__page--notifications span {
+  color: royalblue;
+  margin-right: 8px;
+  font-size: 11px;
+}
+.sidebar__bottom{
+background-color: whitesmoke;
+border-radius: 10px;
+margin-top: 10px;
+padding: 10px;
+}
+.recents > h5{
+  color: grey;
+  font-size:15px;
+  text-align: left;
+}
+.sidebar__hastag{
+  display: flex;
+  align-items:center ;
+  margin-top: 10px;
+  color: grey;
+  }
+  .sidebar__hastag > .MuiSvgIcon-root{
+   font-size: 18px;
+   margin-right: 5px;
+  }
+  .sidebar__hastag > span{
+    margin-right: 5px;
+  }
+  .sidebar__hastag > p{
+    font-size: 13px;
+  }
+  .sidebar__links{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .sidebar__links > p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .sidebar__links > p > a{
+    text-decoration: none;
+
+  }
+  .showmore__btn{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: -10px;
+    font-size: 13px;
+    color: grey;
+  }
+  .showmore__btn + hr{
+    border-style: ridge;
+    margin-top: -10px;
+  }
+  .discover__more {
+    font-size: 13px;
+    color: grey
+
+  }
